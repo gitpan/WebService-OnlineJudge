@@ -1,0 +1,54 @@
+WebService-OnlineJudge
+
+This is the README file for the WebService::OnlineJudge module. This
+concerns only the installation procedure, so please refer to the POD
+for usage (just type 'perldoc WebService::OnlineJudge' after the 
+installation, or find it on search.cpan.org).
+
+The WebService::OnlineJudge module is a pure Perl module that requires
+WWW::Mechanize, but the installation should take care of that for you
+in case you don't already have it. You don't need any special environment
+in order to build this module - although you will need an Internet
+connection to use it.
+
+This is the first version of the module (0.01), so stay tuned for new
+features and enhancements!
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc WebService::OnlineJudge
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=WebService-OnlineJudge
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/WebService-OnlineJudge
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/WebService-OnlineJudge
+
+    Search CPAN
+        http://search.cpan.org/dist/WebService-OnlineJudge
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 Breno G. de Oliveira
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
